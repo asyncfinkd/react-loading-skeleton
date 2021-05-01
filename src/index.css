@@ -15,10 +15,13 @@ body {
 header {
   background-color: #1e65ff;
   padding: 10px;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 
-header h1 {
+header div {
   color: white;
-  max-width: 1200px;
   margin: 0 auto;
+  max-width: 1200px;
 }
