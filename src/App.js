@@ -1,4 +1,6 @@
 import React from "react";
+import Articles from "./components/articles/Articles";
+import User from "./components/user/User";
 
 export default function App() {
   return (
@@ -19,7 +21,10 @@ export default function App() {
             </h2>
           </div>
         </header>
-        <div className="content"></div>
+        <div className="content">
+          <Articles />
+          <User />
+        </div>
       </div>
     </>
   );
