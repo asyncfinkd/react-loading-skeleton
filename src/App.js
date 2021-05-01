@@ -13,6 +13,7 @@ export default function App() {
           <div>
             <h2
               style={{ cursor: "pointer" }}
+              className="none"
               onClick={() => {
                 window.location.href = "https://github.com/asyncfinkd";
               }}
