@@ -14,13 +14,12 @@ body {
 
 header {
   background-color: #1e65ff;
-  padding: 10px;
-  display: flex;
-  align-items: center;
+  padding: 10px 15px;
   width: 100%;
 }
 
-header div {
+header div,
+header h1 {
   color: white;
   margin: 0 auto;
   max-width: 1200px;

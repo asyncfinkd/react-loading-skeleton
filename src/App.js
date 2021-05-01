@@ -7,20 +7,7 @@ export default function App() {
     <>
       <div>
         <header>
-          <div>
-            <h1>React Loading Skeleton</h1>
-          </div>
-          <div>
-            <h2
-              style={{ cursor: "pointer" }}
-              className="none"
-              onClick={() => {
-                window.location.href = "https://github.com/asyncfinkd";
-              }}
-            >
-              asyncfinkd
-            </h2>
-          </div>
+          <h1>React Loading Skeleton</h1>
         </header>
         <div className="content">
           <Articles />
