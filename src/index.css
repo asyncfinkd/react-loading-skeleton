@@ -78,6 +78,7 @@ h2 {
 .skeleton-wrapper {
   margin: 20px auto;
   padding: 10px 15px;
+  border-radius: 4px;
 }
 
 .skeleton-profile {
@@ -85,4 +86,16 @@ h2 {
   grid-template-columns: 1fr 2fr;
   gap: 30px;
   align-items: center;
+}
+
+.skeleton-wrapper.light {
+  background: #f2f2f2;
+}
+
+.skeleton-wrapper.dark {
+  background: #444;
+}
+
+.skeleton-wrapper.dark .skeleton {
+  background: #777;
 }
