@@ -1,0 +1,10 @@
+- file: src
+  file_child: App.js
+  file_child: index.css
+  file_child: index.js
+  file_child: reportWebVitals.js
+  file_child: setupTests.js
+- file: components
+  file_child: articles/Articles.js
+  file_child: skeletons/SkeletonElement.js
+  file_child: user/User.js
