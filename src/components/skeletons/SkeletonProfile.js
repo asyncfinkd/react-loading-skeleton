@@ -1,4 +1,5 @@
 import React from "react";
+import Shimmer from "./Shimmer";
 import SkeletonElement from "./SkeletonElement";
 
 export default function SkeletonProfile({ theme }) {
@@ -16,6 +17,7 @@ export default function SkeletonProfile({ theme }) {
             <SkeletonElement type="text" />
           </div>
         </div>
+        <Shimmer />
       </div>
     </>
   );

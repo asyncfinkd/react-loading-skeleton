@@ -24,7 +24,7 @@ export default function User() {
           </div>
         )}
 
-        {!profile && [1].map((n) => <SkeletonProfile key={n} />)}
+        {!profile && [1].map((n) => <SkeletonProfile key={n} theme="light" />)}
       </div>
     </>
   );
