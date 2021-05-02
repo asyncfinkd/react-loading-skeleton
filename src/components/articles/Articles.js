@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import SkeletonElement from "../skeletons/SkeletonElement";
 
 export default function Articles() {
   const [articles, setArticles] = useState(null);
@@ -15,6 +16,10 @@ export default function Articles() {
     <>
       <div className="articles">
         <h2>Articles</h2>
+
+        <SkeletonElement type="title" />
+        <SkeletonElement type="avatar" />
+        <SkeletonElement type="text" />
 
         {articles && (
           <>
