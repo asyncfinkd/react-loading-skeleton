@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function User() {
+  const [profile, setProfile] = useState(null);
   return (
     <>
       <div className="user">
