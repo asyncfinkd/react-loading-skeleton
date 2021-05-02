@@ -34,7 +34,9 @@ You can ignore this code because it is the JSON from which we bring the informat
 ```jsx
    {!articles && [1, 2, 3, 4, 5].map((n) => <SkeletonArticle key={n} theme="light" />)}
 ```
-Here it is written to repeat the skeleton 5 times. Which is once created. This in my opinion is correct and true if you see the code and then the result. You will be more convinced that it was necessary. Initially we had one container where I wrote 3 lines: but the minimum number of containers is 100. I did not do all 100 and decided to do 5. So I put just 5 numbers in the array and put them
+Here it is written to repeat the skeleton 5 times. Which is once created. This in my opinion is correct and true if you see the code and then the result. You will be more convinced that it was necessary. Initially we had one container where I wrote 3 lines: but the minimum number of containers is 100. I did not do all 100 and decided to do 5. So I put just 5 numbers in the array and put them.
+
+The rest is already simpler, more stylized and already related to imports. And simple JSX syntax. Hope you have a good time
 
 ## License
 
