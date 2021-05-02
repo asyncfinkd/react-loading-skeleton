@@ -22,6 +22,8 @@ export default function User() {
             <a href={profile.website}>{profile.website}</a>
           </div>
         )}
+
+        {!profile && <div>loading...</div>}
       </div>
     </>
   );
