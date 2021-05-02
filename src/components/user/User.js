@@ -15,7 +15,7 @@ export default function User() {
   return (
     <>
       <div className="user">
-        <h2>User</h2>
+        <h2>User Details</h2>
         {profile && (
           <div className="profile">
             <h3>{profile.username}</h3>

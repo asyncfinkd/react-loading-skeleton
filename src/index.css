@@ -79,3 +79,10 @@ h2 {
   margin: 20px auto;
   padding: 10px 15px;
 }
+
+.skeleton-profile {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+  align-items: center;
+}
