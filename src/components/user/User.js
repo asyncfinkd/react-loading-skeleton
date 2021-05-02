@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import SkeletonProfile from "../skeletons/SkeletonProfile";
 
 export default function User() {
   const [profile, setProfile] = useState(null);
@@ -23,7 +24,7 @@ export default function User() {
           </div>
         )}
 
-        {!profile && <div>loading...</div>}
+        {!profile && [1].map((n) => <SkeletonProfile key={n} />)}
       </div>
     </>
   );
