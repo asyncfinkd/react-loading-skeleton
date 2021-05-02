@@ -16,7 +16,7 @@
 
 [Click here](content/filestructure.yml) to see the file structure of how we assembled it.
 
-# Code Review
+## Code Review
 
 ```jsx
   const [articles, setArticles] = useState(null);
@@ -37,6 +37,14 @@ You can ignore this code because it is the JSON from which we bring the informat
 Here it is written to repeat the skeleton 5 times. Which is once created. This in my opinion is correct and true if you see the code and then the result. You will be more convinced that it was necessary. Initially we had one container where I wrote 3 lines: but the minimum number of containers is 100. I did not do all 100 and decided to do 5. So I put just 5 numbers in the array and put them.
 
 The rest is already simpler, more stylized and already related to imports. And simple JSX syntax. Hope you have a good time
+
+## Contributing
+
+The main purpose of this repository is to continue evolving React Loading Skeleton core, making it faster and easier to use. Development of React Loading Skeleton happens in the open on GitHub, and we are grateful to the community for contributing bugfixes and improvements. Read below to learn how you can take part in improving React Loading Skeleton.
+
+## [Code of Conduct](CODE_OF_CONDUCT.md)
+
+React Loading Skeleton has adopted a Code of Conduct that we expect project participants to adhere to. Please read the full text so that you can understand what actions will and will not be tolerated.
 
 ## License
 
