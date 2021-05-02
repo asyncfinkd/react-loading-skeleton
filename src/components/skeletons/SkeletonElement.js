@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function SkeletonElement() {
+export default function SkeletonElement({ type }) {
   return (
     <>
-      <h1>Skeleton</h1>
+      <div className={`skeleton ${type}`}></div>
     </>
   );
 }
