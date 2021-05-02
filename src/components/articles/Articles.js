@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import SkeletonArticle from "../skeletons/SkeletonArticle";
-import SkeletonElement from "../skeletons/SkeletonElement";
+// import SkeletonElement from "../skeletons/SkeletonElement";
 
 export default function Articles() {
   const [articles, setArticles] = useState(null);
