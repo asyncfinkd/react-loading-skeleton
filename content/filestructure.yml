@@ -8,3 +8,5 @@
   file_child: articles/Articles.js
   file_child: skeletons/SkeletonElement.js
   file_child: user/User.js
+- file: public
+  file_child: index.html
